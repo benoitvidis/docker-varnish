@@ -3,13 +3,13 @@
 - Using default vcl:
 
 ```
-docker run -e VARNISH_BACKEND=mybackend:3000 bvidis/varnish6
+docker run -e VARNISH_BACKEND=mybackend:3000 bvidis/varnish
 ```
 
 - Using a vcl file:
 
 ```
-docker run -v path/to/default.vcl:/etc/varnish/default.vcl bvidis/varnish6
+docker run -v path/to/default.vcl:/etc/varnish/default.vcl bvidis/varnish
 ```
 
 ## Environment variables
